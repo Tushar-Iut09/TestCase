@@ -12,6 +12,6 @@ jobs:
         caches:
           - dotnetcore
         script: # Modify the commands below to build your repository.
-          - export PROJECT_NAME=Demo_T
+          - export PROJECT_NAME=RegressionTest
           - dotnet restore
           - dotnet build $PROJECT_NAME
