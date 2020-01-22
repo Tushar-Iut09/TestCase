@@ -16,7 +16,7 @@ namespace RegressionTest
             int a = 7;
             int b = 7;
             int c = a + b;
-            Assert.AreEqual(c, 15);
+            Assert.AreEqual(c, 14);
             Assert.Pass("Test Case Passed");
         }
     }
